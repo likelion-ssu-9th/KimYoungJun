@@ -1,0 +1,32 @@
+  
+body{
+    width: 300px;
+    margin: 0 auto;
+}
+.cardImage{
+    position: relative;
+}
+.cardInfo{
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+.infoLeft{
+
+}
+
+.infoRight{
+
+    margin-left: auto;
+}
+.comment{
+    top: 60%;
+    position: absolute;
+    
+}
+.comment_form{
+    top: 70%;
+    position: absolute;
+}

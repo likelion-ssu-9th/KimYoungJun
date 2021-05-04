@@ -1,0 +1,22 @@
+header{
+    border-bottom-style: solid;
+    display: flex;
+}
+.left_box{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+.right_box{
+    display:flex;
+    flex-direction: row;
+    margin-left: auto;
+
+}
+.favicon_frame{
+    display: block;
+}
+.line{
+    display: block;
+}

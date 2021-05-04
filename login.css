@@ -1,0 +1,58 @@
+@charset "UTF-8";
+.login_container{
+    width:300px;
+    height:300px;
+    margin: 50px auto 50px;
+    border: 1px solid rgb(185, 103, 103);
+    background-color: rgb(245, 234, 234);
+    
+}
+
+
+.instagramText {
+    height: 40px;
+    width: 150px;
+    display: block;
+    margin: 30px auto 30px;
+}
+
+#loginButton{
+    width: 82.5%;
+    background-color: skyblue;
+    color:white;
+    margin-top: 10px;
+    margin-left: 35px;
+    padding: 10px 0 ;
+    border-radius: 5px;
+}
+
+.userLogin {
+    width: 80%;
+    margin-bottom: 10px;
+    margin-left: 35px;
+    padding: 10px 0 10px 8px;
+    background-color: whitesmoke;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.joinInsta{
+    border : 1px solid gray;
+    background-color: white;
+    width: 300px;
+    height: 50px;
+    margin: 50px auto 50px;
+}
+.join{
+    float:left;
+    margin-left:50px;
+}
+.joinBtn{
+    float:right;
+    border: None;
+    display: block;
+    background-color: white;
+    color:skyblue;
+    padding: 0;
+    margin-left:2px;
+}

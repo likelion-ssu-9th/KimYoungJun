@@ -1,0 +1,82 @@
+body {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    box-sizing:border-box;
+    
+}
+
+div.signUp_container{ /*부모*/
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    border:1px solid gray;
+    margin-bottom: 10px;
+    width:400px;
+    flex-grow:1;
+}
+
+input.userSignUp{
+    margin-bottom: 5px;
+    width:200px;
+    justify-content: center;
+    height:20px;
+    padding:5px;
+}
+
+img.instagramText{
+    width:50%; height:50%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%
+
+}
+hr.line{
+    color: gray;
+    justify-content: center;
+}
+h2.joinLetter{
+    font-size:medium;
+    color: gray;
+    justify-content: center;
+}
+
+#signUpButton{
+    background-color:dodgerblue;
+    border-color:dodgerblue;
+    color:gray;
+    margin-bottom:15%;
+    width:210px;
+    height:35px;
+    flex-shrink: 0;
+    padding:5px;
+}
+
+footer.joinInsta{
+    border:1px solid gray;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width:400px;
+
+}
+
+p.join{
+    font-size: small;
+    justify-content:space-around;
+    /* margin-left: 15px; */
+}
+
+button.joinBtn{
+    color:dodgerblue;
+    background-color: white;
+    border:none;
+    font-size:bold;
+    width:80px;
+    justify-content:space-around;
+    float:right;
+    /* margin-right:30px; */
+}
