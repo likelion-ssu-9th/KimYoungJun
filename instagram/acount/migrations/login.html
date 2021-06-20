@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Instargram Login</title>
+        <link href="{% static 'css/background.css' %}" rel="stylesheet" type="text/css" />
+        <link href="{% static 'css/login.css' %}" rel="stylesheet" type="text/css" />
+        <link rel="icon" href="{% static 'img/icon.png' %}">
+    </head>
+
+    <body>
+        <div class="login_container">
+            <form action="{% url 'login' %}" method="POST" >
+                {%csrf_tojen%}
+                <a href="{% url 'home'%}">
+                <img class="instargramText" src="{% static 'img/logo_text.png' %}" alt="instargramText">  
+
+                </a>
+
+                <input type="text" class="userLogin" placeholder="전화번호, 사용자 이름 또는 이메일" name="userID">
+                <input type="password" class="userLogin" placeholder="비밀번호" name="password">
+                <button id="loginButton" type="submit" disabled>로그인</button>
+            </form>
+            
+            
+        
+        </div>
+
+        <div>
+        <footer class="joinInsta">
+            <p class="join">계정이 없으신가요?
+                <a href="{% url 'signup' %}" class="joinBtn">가입하기</a>
+        </footer>
+        </div>
+    </body>
+</html>
